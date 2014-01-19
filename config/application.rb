@@ -10,8 +10,8 @@ module TumblrFamousRails
   class Application < Rails::Application
 
     Tumblr.configure do |config|
-      config.consumer_key = "NugbEX3qh96IleVqn2eGLTphq8WWFb1NDhC15XfcdHm5xtjdVb"
-      config.consumer_secret = "8j0CkWdhKKrxuokj2OZEPH43uvgFf9eReKzFYI57ubXkapBnEe"
+      config.consumer_key = "HkKQKdz8qmb2WTWTPWjd0FkRFQIGihbBkASyVdTtkIeihRFt4Z"
+      config.consumer_secret = "NScqGFcG2ymequqpFWMe7qKIs3ux0XyE6iS0ESByK6UySbMZwi"
       config.oauth_token = ""
       config.oauth_token_secret = ""
     end

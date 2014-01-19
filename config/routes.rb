@@ -6,7 +6,11 @@ TumblrFamousRails::Application.routes.draw do
   # root 'welcome#index'
 
   # Example of regular route:
-    get 'tags/:tag' => 'tumblr_backend#tags'
+    get 'tags' => 'tumblr_backend#tags'
+
+    get 'tags/token' => 'tumblr_backend#tokenGrabber'
+
+    get '/callback' => 'tumblr_backend#callback'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
